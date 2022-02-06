@@ -2,7 +2,7 @@ from urllib import response
 import requests
 import json
 
-API_KEY = "a1d25fe4f55e94d12fe2151c5b3c19b4"
+API_KEY = "axxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 city_name = input("Enter city name ")
 
 URL = f"http://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={API_KEY}"
